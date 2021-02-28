@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:id="@+id/pName"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UGX 500,000"
+            android:id="@+id/pPrice"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+        <!--
+        gs://akar-92831.appspot.com/mustang.jpg
+        gs://akar-92831.appspot.com/raptor.jpg
+        gs://akar-92831.appspot.com/x6.jpeg
+        -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UGX 500,000"
+            android:id="@+id/pLocation"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:padding="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pImage"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+</androidx.cardview.widget.CardView>
